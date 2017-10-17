@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>TOMATAS.ME</title>
+	<meta charset="utf-8">
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon" href="tomato32.ico">
+</head>
+<body onload="hideStatus()">
+<div class="header">
+	<img id="tomato" src="tomato.svg">
+	<h1 class="title"><span>promodoro clock</span> tomatas.me <sup class="inferior">&copy;</sup></h1>
+</div>
+<div class="app">
+	<div class="menu">
+		<h1 id="start" class="title button">start</h1>
+		<h1 id="stop" class="title button">stop</h1>	
+	</div>
+	<div class="timer">
+		<h1 id="countdown" class="init">press start</h1>
+	</div>
+	<div class="status">
+			<h1 id="work" class="go">work</h1>
+			<h1 id="break" class="go inactive">break</h1>
+	</div>
+	<div class="disclaimer">
+		<p>This project is based on the <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target="__blank">Promodoro Technique</a>. The timer will run for 30 minutes including the break, and play a sound in between. Make sure your speakers are on and beware to restart sessions.</p>
+	</div>
+	<div class="footer">
+		<p>Made with &#9825; by Luís Rodrigues</p>
+	</div>
+</div>
+<!-- scripts here-->
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
